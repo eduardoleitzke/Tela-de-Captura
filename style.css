@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* text-decoration: none; */
+}
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(0,175,255);
+    width: 1000px;
+    height: 30px; 
+    text-align: center;
+    margin: auto;
+    font-family: sans-serif, none, none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color:rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    font-weight: bold;
+}
+.container{
+    padding: 10px;
+    max-width: 1000px;
+    margin: auto;
+    background-image: url(./assents/palestrante.jpg);
+    background-size: cover;
+    overflow: hidden;
+    /* border: 3px solid blue; */
+}
+
+.formulario{
+    max-width: 230px;
+    padding: 20px;
+    border-radius: 5%;
+    background-color: rgba(109, 181, 223, 0.8);
+    float: right;
+    text-align: auto;
+   
+}
+h3{
+    text-decoration: bold;
+}
+.mb{
+    margin-bottom: 15px;
+}
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+input{
+    width: 100%;
+    display: block;
+}
+input[type="submit"]{
+    background-color: rgba(15, 0,0, 0.8);
+    color: slateblue;
+    font-weight: bold;
+    cursor:cell;
+}
+footer{
+    width: 1000px;
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(46, 42, 41);
+    text-align: center;
+}
+#madruga{
+   width:160px;
+   border-radius: 50%;
+}
+.description{
+    margin-top: 20px;
+    color: white;
+    display: inline-block;
+    max-width: 40%;
+}
+.description p, .description h2{
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 800px){
+    .formulario{
+        float:none;
+        background-color: rgba(150,0,12,0.7);
+        text-align: center;
+        margin: auto;
+    }
+    header{
+        text-align: left;
+    }
+}
